@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Learning Blob</title>
+    
+    
+    
+    <link>https://tgarlot.github.io/posts/</link>
+    <description>Recent content in Posts on Learning Blob</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Nov 2020 06:25:58 +0100</lastBuildDate>
+    
+	<atom:link href="https://tgarlot.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo Site on Github</title>
+      <link>https://tgarlot.github.io/posts/hugo-site-on-github/</link>
+      <pubDate>Wed, 11 Nov 2020 06:25:58 +0100</pubDate>
+      
+      <guid>https://tgarlot.github.io/posts/hugo-site-on-github/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          References:
+ Hugo site Hugo quickstart  Install Hugo and bootstrap site folder First we need to install hugo with brew install hugo.
+Then create the site/folder:
+hugo new site blog cd blog git init Choose a Theme and install it as git submodule
+git submodule add https://github.com/panr/hugo-theme-hello-friend.git themes/hello-friend Then do a first commit and push to a new empty repository on github
+git add . git commit -m&amp;#34;Initial commit&amp;#34; git remote add origin https://github.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Homebrew</title>
+      <link>https://tgarlot.github.io/posts/homebrew/</link>
+      <pubDate>Wed, 11 Nov 2020 06:07:29 +0100</pubDate>
+      
+      <guid>https://tgarlot.github.io/posts/homebrew/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Reminders for Homebrew commands
+ brew list: to get all the installed formulas brew upgrade formula: to upgrade to the latest version of a formula brew update: update all the installed formulas to the latest version  Homebrew Documentation
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>
