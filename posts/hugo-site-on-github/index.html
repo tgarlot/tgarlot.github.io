@@ -188,17 +188,18 @@ git commit -m<span style="color:#e6db74">&#34;Initial commit&#34;</span>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git remote add origin https://github.com/tgarlot/tgarlot.github.io.git
 git push -u origin master
 </code></pre></div><p>Then add the <code>public</code> as a Git submodule:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rm -rf public
-cd ..
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd ..
+rm -rf public
 git submodule add -b master https://github.com/tgarlot/tgarlot.github.io.git public
-</code></pre></div><p>Git add/commit/push</p>
-<p>Then how to run:</p>
+git add .
+git commit -m<span style="color:#e6db74">&#34;Add public folder as submodule&#34;</span>
+git push -u origin master
+</code></pre></div><h2 id="add-or-edit-some-content">Add or edit some content</h2>
 <ul>
 <li>update a markdown file</li>
 <li>run hugo command to regenerate the content of the public folder</li>
 <li>add/commit/push in BOTH repositoriy (public and content)</li>
 </ul>
-<p>git clone <a href="https://github.com/tgarlot/tgarlot.github.io.git">https://github.com/tgarlot/tgarlot.github.io.git</a> public</p>
 
     </div>
     
