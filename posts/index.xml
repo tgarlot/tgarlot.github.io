@@ -9,10 +9,34 @@
     <description>Recent content in Posts on Learning Blob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2020 06:25:58 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2020 07:40:07 +0100</lastBuildDate>
     
 	<atom:link href="https://tgarlot.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git Rebase Merge</title>
+      <link>https://tgarlot.github.io/posts/git-rebase-merge/</link>
+      <pubDate>Wed, 18 Nov 2020 07:40:07 +0100</pubDate>
+      
+      <guid>https://tgarlot.github.io/posts/git-rebase-merge/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          References:
+ https://github.com/servo/servo/wiki/Beginner%27s-guide-to-rebasing-and-squashing https://www.digitalocean.com/community/tutorials/how-to-rebase-and-update-a-pull-request Delete a local or remote branch  Let&amp;rsquo;s start from an repo on gitHub, for example Hugo Docs
+First, let&amp;rsquo;s fork it on GitHub on personal account
+Then git clone the forked repository. This would automatically create the associated repo as a origin remote (visible with git remote -v)
+Add the original repo as upstream remote with git remote add upstream git_repo_url. This would allow to rebase before pushing.
+          
+        
+        </description>
+    </item>
     
     <item>
       <title>Hugo Site on Github</title>
