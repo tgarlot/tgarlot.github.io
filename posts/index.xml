@@ -9,10 +9,30 @@
     <description>Recent content in Posts on Learning Blob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Nov 2020 07:40:07 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2020 08:08:53 +0100</lastBuildDate>
     
 	<atom:link href="https://tgarlot.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git Cheat Sheet</title>
+      <link>https://tgarlot.github.io/posts/git-cheat-sheet/</link>
+      <pubDate>Thu, 19 Nov 2020 08:08:53 +0100</pubDate>
+      
+      <guid>https://tgarlot.github.io/posts/git-cheat-sheet/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Git commands to know
+          
+        
+        </description>
+    </item>
     
     <item>
       <title>Git Rebase Merge</title>
@@ -28,11 +48,7 @@
         
         
         
-          References:
- https://github.com/servo/servo/wiki/Beginner%27s-guide-to-rebasing-and-squashing https://www.digitalocean.com/community/tutorials/how-to-rebase-and-update-a-pull-request Delete a local or remote branch  Let&amp;rsquo;s start from an repo on gitHub, for example Hugo Docs
-First, let&amp;rsquo;s fork it on GitHub on personal account
-Then git clone the forked repository. This would automatically create the associated repo as a origin remote (visible with git remote -v)
-Add the original repo as upstream remote with git remote add upstream git_repo_url. This would allow to rebase before pushing.
+          Tips on how to do PR on GitHub
           
         
         </description>
@@ -52,12 +68,7 @@ Add the original repo as upstream remote with git remote add upstream git_repo_u
         
         
         
-          References:
- Hugo site Hugo quickstart  Install Hugo and bootstrap site folder First we need to install hugo with brew install hugo.
-Then create the site/folder:
-hugo new site blog cd blog git init Choose a Theme and install it as git submodule
-git submodule add https://github.com/panr/hugo-theme-hello-friend.git themes/hello-friend Then do a first commit and push to a new empty repository on github
-git add . git commit -m&amp;#34;Initial commit&amp;#34; git remote add origin https://github.
+          How to use Hugo to generate a static site
           
         
         </description>
@@ -77,8 +88,7 @@ git add . git commit -m&amp;#34;Initial commit&amp;#34; git remote add origin ht
         
         
         
-          Reminders for Homebrew commands
- brew list: to get all the installed formulas brew upgrade formula: to upgrade to the latest version of a formula brew update: update all the installed formulas to the latest version  Homebrew Documentation
+          Main Homebrew commands
           
         
         </description>

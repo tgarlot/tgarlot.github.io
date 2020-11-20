@@ -3,18 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tgarlot.github.io/tags/development/</loc>
+    <lastmod>2020-11-19T08:08:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgarlot.github.io/tags/git/</loc>
+    <lastmod>2020-11-19T08:08:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgarlot.github.io/posts/git-cheat-sheet/</loc>
+    <lastmod>2020-11-19T08:08:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgarlot.github.io/</loc>
+    <lastmod>2020-11-19T08:08:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgarlot.github.io/posts/</loc>
+    <lastmod>2020-11-19T08:08:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgarlot.github.io/tags/</loc>
+    <lastmod>2020-11-19T08:08:53+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tgarlot.github.io/posts/git-rebase-merge/</loc>
     <lastmod>2020-11-18T07:40:07+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tgarlot.github.io/</loc>
-    <lastmod>2020-11-18T07:40:07+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tgarlot.github.io/posts/</loc>
-    <lastmod>2020-11-18T07:40:07+01:00</lastmod>
+    <loc>https://tgarlot.github.io/tags/hugo/</loc>
+    <lastmod>2020-11-11T06:25:58+01:00</lastmod>
   </url>
   
   <url>
@@ -23,16 +48,22 @@
   </url>
   
   <url>
+    <loc>https://tgarlot.github.io/tags/homebrew/</loc>
+    <lastmod>2020-11-11T06:07:29+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tgarlot.github.io/posts/homebrew/</loc>
     <lastmod>2020-11-11T06:07:29+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tgarlot.github.io/categories/</loc>
+    <loc>https://tgarlot.github.io/tags/macos/</loc>
+    <lastmod>2020-11-11T06:07:29+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tgarlot.github.io/tags/</loc>
+    <loc>https://tgarlot.github.io/categories/</loc>
   </url>
   
 </urlset>
