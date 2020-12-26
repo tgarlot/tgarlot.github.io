@@ -3,7 +3,7 @@
   <head>
     
       <title>
-        Git Cheat Sheet ::
+        Go Notes ::
         Learning Blob
       </title>
     
@@ -11,16 +11,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="Delete branch Local branch: git branch -d the_local_branch
-Remote branch: git push origin :the_remote_branch or git push origin --delete the_remote_branch
-Reset to Upstream # ensures current branch is master git checkout master # pulls all new commits made to upstream/master git pull upstream master # this will delete all your local changes to master git reset --hard upstream/master # take care, this will delete all your changes on your forked master git push origin master --force Get log git log --pretty=format:&amp;quot;%h %s&amp;quot; --graph"
+  content=" Install wth Homebrew Configure GOPATH in .zschr and add GOPATH/bin to PATH VS code: https://github.com/golang/tools/blob/master/gopls/doc/vscode.md  "
 />
 <meta
   name="keywords"
   content=""
 />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="https://tgarlot.github.io/posts/git-cheat-sheet/" />
+<link rel="canonical" href="https://tgarlot.github.io/posts/go-notes/" />
 
 
 
@@ -48,17 +46,17 @@ Reset to Upstream # ensures current branch is master git checkout master # pulls
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Git Cheat Sheet"/>
-<meta name="twitter:description" content="Git commands to know"/>
+<meta name="twitter:title" content="Go Notes"/>
+<meta name="twitter:description" content="Tips about Go"/>
 
 
 
-<meta property="og:title" content="Git Cheat Sheet" />
-<meta property="og:description" content="Git commands to know" />
+<meta property="og:title" content="Go Notes" />
+<meta property="og:description" content="Tips about Go" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://tgarlot.github.io/posts/git-cheat-sheet/" />
-<meta property="article:published_time" content="2020-11-19T08:08:53+01:00" />
-<meta property="article:modified_time" content="2020-11-19T08:08:53+01:00" />
+<meta property="og:url" content="https://tgarlot.github.io/posts/go-notes/" />
+<meta property="article:published_time" content="2020-12-03T07:06:35+01:00" />
+<meta property="article:modified_time" content="2020-12-03T07:06:35+01:00" />
 
 
 
@@ -117,11 +115,11 @@ Reset to Upstream # ensures current branch is master git checkout master # pulls
   
 
   <div class="post">
-    <h1 class="post-title">Git Cheat Sheet</h1>
+    <h1 class="post-title">Go Notes</h1>
     <div class="post-meta">
       
         <span class="post-date">
-          November 19, 2020
+          December 3, 2020
         </span>
 
         
@@ -140,7 +138,7 @@ Reset to Upstream # ensures current branch is master git checkout master # pulls
         
           <a href="https://tgarlot.github.io/tags/development/">#Development</a>&nbsp;
         
-          <a href="https://tgarlot.github.io/tags/git/">#Git</a>&nbsp;
+          <a href="https://tgarlot.github.io/tags/go/">#Go</a>&nbsp;
         
       </span>
     
@@ -149,23 +147,11 @@ Reset to Upstream # ensures current branch is master git checkout master # pulls
 
     <div class="post-content">
       
-      <h1 id="delete-branch">Delete branch</h1>
-<p>Local branch: <code>git branch -d the_local_branch</code></p>
-<p>Remote branch: <code>git push origin :the_remote_branch</code> or <code>git push origin --delete the_remote_branch</code></p>
-<h1 id="reset-to-upstream">Reset to Upstream</h1>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># ensures current branch is master</span>
-git checkout master
-
-<span style="color:#75715e"># pulls all new commits made to upstream/master</span>
-git pull upstream master
-
-<span style="color:#75715e"># this will delete all your local changes to master</span>
-git reset --hard upstream/master
-
-<span style="color:#75715e"># take care, this will delete all your changes on your forked master</span>
-git push origin master --force
-</code></pre></div><h1 id="get-log">Get log</h1>
-<p><code>git log --pretty=format:&quot;%h %s&quot; --graph</code></p>
+      <ul>
+<li>Install wth Homebrew</li>
+<li>Configure GOPATH in .zschr and add GOPATH/bin to PATH</li>
+<li>VS code: <a href="https://github.com/golang/tools/blob/master/gopls/doc/vscode.md">https://github.com/golang/tools/blob/master/gopls/doc/vscode.md</a></li>
+</ul>
 
     </div>
     

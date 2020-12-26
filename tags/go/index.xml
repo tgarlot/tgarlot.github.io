@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Go on Learning Blob</title>
+    
+    
+    
+    <link>https://tgarlot.github.io/tags/go/</link>
+    <description>Recent content in Go on Learning Blob</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Dec 2020 07:06:35 +0100</lastBuildDate>
+    
+	<atom:link href="https://tgarlot.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Go Notes</title>
+      <link>https://tgarlot.github.io/posts/go-notes/</link>
+      <pubDate>Thu, 03 Dec 2020 07:06:35 +0100</pubDate>
+      
+      <guid>https://tgarlot.github.io/posts/go-notes/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Tips about Go
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

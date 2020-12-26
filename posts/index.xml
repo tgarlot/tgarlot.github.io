@@ -9,10 +9,30 @@
     <description>Recent content in Posts on Learning Blob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2020 08:08:53 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 03 Dec 2020 07:06:35 +0100</lastBuildDate>
     
 	<atom:link href="https://tgarlot.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Go Notes</title>
+      <link>https://tgarlot.github.io/posts/go-notes/</link>
+      <pubDate>Thu, 03 Dec 2020 07:06:35 +0100</pubDate>
+      
+      <guid>https://tgarlot.github.io/posts/go-notes/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Tips about Go
+          
+        
+        </description>
+    </item>
     
     <item>
       <title>Git Cheat Sheet</title>
